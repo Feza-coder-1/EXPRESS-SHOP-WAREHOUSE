@@ -9,7 +9,9 @@ public class Main {
 
 
         User user1 = new Manager();
-        user1.accessMenu();
+        User user2 = new Client();
+        //user1.accessMenu();
+        user2.accessMenu();
 
     }
 }
